@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.menuvertical {
+    background-color: #F38B6E;
+    position: absolute;
+    width: 22%;
+    height: 100%;
+
+}
+.menuvertical li a {
+    color: #fff;
+    padding: 20px;
+    transition: background .4s;
+    font-size: 20px;
+}
+.menuvertical li {
+    margin: 30px;
+}
+.logo{
+    position: relative;
+left: 13.54%;
+right: 74.09%;
+top: 0%;
+bottom: 85.7%;
+}
+.img {  
+    height: 100px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.sair {
+    position: relative;
+    top: 100px;
+}
+.menuvertical ul {
+    position:relative;
+    top: 80px;
+}
+.ion-icon {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 8%;
+}
+.caixa{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    left: 320px;
+    text-align: center;
+    padding: 60px;
+}
+.input-field {
+    position: relative;
+    
+}
+.input-field input {
+    position: relative;
+    outline: none;
+    font-size: 0.9rem;
+    width: 300px;
+    top: 15px;
+    padding: 5px;
+    border-color: #DCDCDC;
+    border-radius: 15px;
+    
+}
+.input-field select {
+    position: relative;
+    outline: none;
+    top: 15px;
+    font-size: 0.9rem;
+    width: 300px;
+    padding: 5px;
+    border-color: #DCDCDC;
+    border-radius: 15px;
+    
+}
+
+.input-field input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.input-field {
+    margin-bottom: 1rem;
+}
+#mensagem {
+    text-align: center;
+    height: 150px;
+}
+body{
+    background-color:#DCDCDC;
+}
+.botao1 {
+    position: relative;
+    top: -20px;
+    margin-top: 3rem;
+    background-color: #2A7CC7;
+    color: white;
+    width: 190px;
+    height: 55px;
+    padding: 3px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.caixa h2{
+    position: relative;
+    top: -50px;
+    font-size: 35px;
+    color: #F38B6E;
+}
+.form2 {
+    position: relative;
+    height: 100%;
+    top: -55px;
+}

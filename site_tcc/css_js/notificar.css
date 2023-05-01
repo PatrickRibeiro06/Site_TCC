@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color:#DCDCDC;
+}
+.menuvertical {
+    background-color: #F38B6E;
+    position: absolute;
+    width: 22%;
+    height: 100%;
+}
+.menuvertical li a {
+    color: #fff;
+    padding: 20px;
+    transition: background .4s;
+    font-size: 20px;
+}
+.menuvertical li {
+    margin: 30px;
+}
+.logo{
+    position: relative;
+left: 13.54%;
+right: 74.09%;
+top: 0%;
+bottom: 85.7%;
+}
+.img {  
+    height: 100px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.sair {
+    position: relative;
+    top: 100px;
+}
+.menuvertical ul {
+    position:relative;
+    top: 80px;
+}
+.banner1{
+    position: absolute;
+     height:100%;
+   width: 80%;
+ }
+.img2 {
+    position: absolute;
+    left: 25%;
+    width: 100%;
+    height: 100%;
+}
+.ion-icon {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    margin-right: 8%;
+}
+.caixa{
+    position: absolute;
+    width: 35%;
+    height: 530px;
+    left: 570px;
+    top: 8%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    text-align: center;
+    padding: 60px;
+}
+#mensagem {
+    text-align: center;
+    height: 150px;
+}
+.caixa li{
+    display: inline;
+    margin: 8%;
+    padding:rem;
+    position: relative;
+    top: -90px;
+}
+.caixa h2{
+    position: relative;
+    top: -50px;
+    color: #F38B6E;
+}
+.img3{
+    width: 100%;
+    position:relative;
+    top: -50px;
+}
+  
+form {
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+
+.custom-checkbox input{
+    display: none;
+}
+.custom-checkbox input + label:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 7px;
+  margin-right: 25px;
+}
+
+.custom-checkbox input:checked + label:before {
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: red;
+  background-position: center;
+  border: none;
+  padding: 1px;
+  
+}
+.botao1 {
+    position: relative;
+    top: -20px;
+    margin-top: 3rem;
+    background-color: #2A7CC7;
+    color: white;
+    width: 190px;
+    height: 55px;
+    padding: 3px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+
